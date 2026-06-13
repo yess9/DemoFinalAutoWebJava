@@ -2,28 +2,27 @@ Proyecto de automatización web, desarrollado con **Serenity BDD**, **Screenplay
 
 
 //📁 Estructura del Proyecto//
-## 📁 Estructura del Proyecto
 
-AUTOMATIZACION-WEB-JAVA
+DEMOFINALAUTOWEBJAVA
 │
 ├── src
 │   ├── main
 │   │   └── java
-│   │       ├── task/                 # Tareas de negocio implementadas con Screenplay
-│   │       └── util/                 # Clases utilitarias y configuraciones comunes
+│   │       ├── task/                
+│   │       └── util/                 
 │   │
 │   └── test
 │       ├── java
-│       │   ├── runner/              # Clases Runner para ejecución de escenarios
-│       │   └── stepdefinition/      # Definición de pasos Gherkin
+│       │   ├── runner/              
+│       │   └── stepdefinition/     
 │       │
 │       └── resources
-│           ├── drivers/             # WebDrivers necesarios para la ejecución
-│           ├── features/            # Archivos .feature de Cucumber
-│           └── serenity.conf        # Configuración de Serenity BDD
+│           ├── drivers/            
+│           ├── features/            
+│           └── serenity.conf       
 │
-├── target/                          # Reportes y artefactos generados
-└── README.md                        # Documentación del proyecto
+├── target/                          
+└── README.md                       
 
 ## 🧾 Escenarios de Prueba
 
@@ -34,7 +33,7 @@ AUTOMATIZACION-WEB-JAVA
 | HP01 | Buscar producto existente por nombre exacto en Inkafarma            | 
 | HP02 | Buscar utilizando una palabra parcial del producto en Inkafarmau    | 
 | HP03 | Buscar producto por marca exitente en Inkafarma                     |
-| HP04 | Buscar utilizando una marca con mayúsculas y minúsculas diferentese |
+| HP04 | Buscar utilizando una marca con mayúsculas y minúsculas diferentes |
 
 ### ❌ Casos Negativos (3)
 
