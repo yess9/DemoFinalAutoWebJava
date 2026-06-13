@@ -1,4 +1,10 @@
-Proyecto de automatización web, desarrollado con **Serenity BDD**, **Screenplay Pattern**, **Selenium WebDriver**, **Cucumber** y **Maven**, usando **Java 17**.
+Proyecto de automatización web, desarrollado con
+**Serenity BDD**, 
+**Screenplay Pattern**, 
+**Selenium WebDriver**,
+**Cucumber**
+**Maven**
+usando **Java 17**.
 
 
 //📁 Estructura del Proyecto//
